@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class ViewController: UIViewController {
 
@@ -14,6 +15,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func loginTapped(_ sender: UIButton) {
+        // Get the default auth ui object
+        // set ourselves as the delegate
+        // get a reference 
+    }
+    
 }
 
