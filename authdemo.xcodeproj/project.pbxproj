@@ -13,6 +13,7 @@
 		B4875A032661BB99004947DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4875A012661BB99004947DB /* Main.storyboard */; };
 		B4875A052661BB9C004947DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4875A042661BB9C004947DB /* Assets.xcassets */; };
 		B4875A082661BB9C004947DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4875A062661BB9C004947DB /* LaunchScreen.storyboard */; };
+		B4875A102661BBD5004947DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4875A0F2661BBD5004947DB /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B4875A042661BB9C004947DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4875A072661BB9C004947DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4875A092661BB9C004947DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4875A0F2661BBD5004947DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				B4875A012661BB99004947DB /* Main.storyboard */,
 				B4875A042661BB9C004947DB /* Assets.xcassets */,
 				B4875A062661BB9C004947DB /* LaunchScreen.storyboard */,
+				B4875A0F2661BBD5004947DB /* GoogleService-Info.plist */,
 				B4875A092661BB9C004947DB /* Info.plist */,
 			);
 			path = authdemo;
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4875A082661BB9C004947DB /* LaunchScreen.storyboard in Resources */,
+				B4875A102661BBD5004947DB /* GoogleService-Info.plist in Resources */,
 				B4875A052661BB9C004947DB /* Assets.xcassets in Resources */,
 				B4875A032661BB99004947DB /* Main.storyboard in Resources */,
 			);
