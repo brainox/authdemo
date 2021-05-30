@@ -106,6 +106,7 @@
 				B48759F52661BB99004947DB /* Frameworks */,
 				B48759F62661BB99004947DB /* Resources */,
 				4D2DD774CDB484BD2AED6913 /* [CP] Embed Pods Frameworks */,
+				0E2F39441B35BCB038E0DBC9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +164,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0E2F39441B35BCB038E0DBC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-authdemo/Pods-authdemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-authdemo/Pods-authdemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-authdemo/Pods-authdemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4D2DD774CDB484BD2AED6913 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
